@@ -28,4 +28,3 @@ def swap(id):
     else:
         ele.mode = "V"
         return "V"
-
