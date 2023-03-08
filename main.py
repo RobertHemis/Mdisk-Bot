@@ -130,7 +130,7 @@ def progress(current, total, message):
 def down(message,link):
 
     # checking link and download with progress thread
-    msg = app.send_message(message.chat.id, '__Downloading__', reply_to_message_id=message.id)
+    msg = app.send_message(message.chat.id, '__Downloading ..__', reply_to_message_id=message.id)
     size = mdisk.getsize(link)
     if size == 0:
         app.edit_message_text(message.chat.id, msg.id,"__**Invalid Link**__")
