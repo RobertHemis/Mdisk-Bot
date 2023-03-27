@@ -6,9 +6,15 @@ _This project is partly possible because of the donations from [𝓐 𝓙𝓪�
 
 ---
 
+
+## Deploy 
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Tamilupdates/Mdisk-Bot)
+
+
 # Variables 
 
-_You can use [config.json](https://github.com/bipinkrish/Mdisk-Downloader-Bot/blob/master/config.json) instead of ENVs_
+_You can use [config.json](https://github.com/Tamilupdates/Mdisk-Bot/blob/master/config.json) instead of ENVs_
 
 #### Required
 
@@ -67,8 +73,8 @@ members - see the list of Owners,Auths,Bans
 _Clone the repositary_
 
 ```
-git clone https://github.com/bipinkrish/Mdisk-Downloader-Bot.git
-cd Mdisk-Downloader-Bot
+git clone https://github.com/Tamilupdates/Mdisk-Bot.git
+cd Mdisk-Bot
 ```
 
 _open `config.json` file and set the variables and start the bot_
