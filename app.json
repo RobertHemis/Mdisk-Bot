@@ -1,0 +1,56 @@
+{
+  "name": "MDisk Bot",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Tamilupdates/Mdisk-Bot",
+  "env": {
+    "OWNER": {
+      "description": "Owner User ID",
+      "required": true,
+      "value": ""
+    },
+    
+    "TARGET ": {
+      "description": "Force Subscribe Channel Username",
+      "required": true,
+      "value": ""
+    },
+    
+    "TEMP_CHAT ": {
+      "description": "Log Channel ID -100",
+      "required": true,
+      "value": ""
+    },
+    
+    "STRING  ": {
+      "description": "Users String",
+      "required": true,
+      "value": ""
+    },
+    
+    "TOKEN": {
+      "description": "Get this value from @BotFather",
+      "required": true,
+      "value": ""
+    },
+    
+    "HASH": {
+      "description": "API Hash",
+      "required": true,
+      "value": ""
+    },
+    
+    "ID": {
+      "description": "API ID",
+      "required": true,
+      "value": ""
+    }
+  }
+}
