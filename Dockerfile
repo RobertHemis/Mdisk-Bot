@@ -1,11 +1,13 @@
-FROM python:3.9
+FROM python:3.10-slim-buster
 
-WORKDIR /app
+WORKDIR . .
 
-COPY requirements.txt /app/
+RUN apt update && apt upgrade -y
+
+COPY requirements.txt .
 
 RUN pip3 install -r requirements.txt
 
-COPY . /app
+COPY . .
 
-CMD python3 main.py
+CMD ["bash", "start.sh"]
