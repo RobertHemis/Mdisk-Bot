@@ -1,5 +1,7 @@
 {
-  "name": "MDisk Bot",
+  "name": "Mdisk Bot",
+  "description": "Mdisk Bot",
+  "logo": "https://graph.org/file/183c91fb709d5af2600c3.jpg",
   "keywords": [
     "telegram",
     "bot",
