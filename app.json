@@ -33,7 +33,7 @@
     
     "STRING  ": {
       "description": "Users String",
-      "required": true,
+      "required": false,
       "value": ""
     },
     
